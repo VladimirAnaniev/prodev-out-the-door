@@ -8,6 +8,7 @@ class VoteApp extends Component {
         <div class="jumbotron">
           <div class="container">
             <h1 class="display-3">Vote for your fav lang!</h1>
+            <h2>Version 1</h2>
           </div>
         </div>
 

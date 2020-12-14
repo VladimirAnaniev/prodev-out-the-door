@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: gprodevcur/out-the-door-frontend:latest
+        image: gprodevcur/out-the-door-frontend:v1
         imagePullPolicy: Always
         env:
           - name: REACT_APP_APIHOSTPORT
