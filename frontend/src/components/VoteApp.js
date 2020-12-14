@@ -8,32 +8,32 @@ class VoteApp extends Component {
         <div class="jumbotron">
           <div class="container">
             <h1 class="display-3">Vote for your fav lang!</h1>
-            <h2>Version 1</h2>
+            <h2>Version 2</h2>
           </div>
         </div>
 
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <ProgrammingLanguage id="csharp" logo="csharp.jpg" />
+              <ProgrammingLanguage name="C#" id="csharp" logo="csharp.jpg" />
             </div>
             <div class="col-md-4">
-              <ProgrammingLanguage id="python" logo="python.png" />
+              <ProgrammingLanguage name="Python" id="python" logo="python.png" />
             </div>
             <div class="col-md-4">
-              <ProgrammingLanguage id="javascript" logo="javascript.png" />
+              <ProgrammingLanguage name="JavaScript" id="javascript" logo="javascript.png" />
             </div>
           </div>
           <hr></hr>
           <div class="row">
             <div class="col-md-4">
-              <ProgrammingLanguage id="go" logo="go.png" />
+              <ProgrammingLanguage name="Go" id="go" logo="go.png" />
             </div>
             <div class="col-md-4">
-              <ProgrammingLanguage id="java" logo="java.png" />
+              <ProgrammingLanguage name="Java" id="java" logo="java.png" />
             </div>
             <div class="col-md-4">
-              <ProgrammingLanguage id="nodejs" logo="nodejs.png" />
+              <ProgrammingLanguage name="Node.js" id="nodejs" logo="nodejs.png" />
             </div>
           </div>
         </div>

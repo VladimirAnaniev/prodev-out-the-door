@@ -1,3 +1,4 @@
+
 window._env_ = {
-  REACT_APP_APIHOSTPORT: "api.52.151.214.8.nip.io",
+  REACT_APP_APIHOSTPORT: "api.34.121.83.43.nip.io",
 }

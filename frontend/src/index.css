@@ -12,3 +12,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.clear-it {
+  clear: both;
+}
+
+.jumbotron {
+  background-color: #FFD54F;
+}
+
+.lang-logo {
+  float: left;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: auto;
+}
+
+.votey {
+  display: flex;
+  align-items: center;
+}
+
+.votey-button {
+  margin-right: 1em;
+}
