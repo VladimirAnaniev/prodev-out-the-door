@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  name: frontend
+  namespace: prodev
+spec:
+  rules:
+    - host: $FRONTEND_PUBLIC_FQDN
+      http:
+        paths:
+          - backend:
+              serviceName: frontend
+              servicePort: 8080
+            path: /
